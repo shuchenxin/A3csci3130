@@ -33,7 +33,9 @@ public class DetailViewActivity extends Activity {
             provinceField.setText(receivedPersonInfo.province);
         }
     }
-
+    /*
+    update value for one specific item
+     */
     public void updateContact(View v){
 
         String id = receivedPersonInfo.uid;
@@ -50,6 +52,9 @@ public class DetailViewActivity extends Activity {
         finish();
     }
 
+    /*
+    delete a specific item
+     */
     public void eraseContact(View v)
     {
         String id = receivedPersonInfo.uid;
