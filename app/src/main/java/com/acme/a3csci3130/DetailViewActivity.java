@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+/**
+ * class used to read, update and delete item
+ */
 public class DetailViewActivity extends Activity {
 
     private EditText numberField, nameField, primaryField, addressField, provinceField;
@@ -33,8 +36,10 @@ public class DetailViewActivity extends Activity {
             provinceField.setText(receivedPersonInfo.province);
         }
     }
-    /*
-    update value for one specific item
+
+    /**
+     * update value for one specific item
+     * @param v
      */
     public void updateContact(View v){
 
@@ -52,8 +57,9 @@ public class DetailViewActivity extends Activity {
         finish();
     }
 
-    /*
-    delete a specific item
+    /**
+     * delete a specific item
+     * @param v
      */
     public void eraseContact(View v)
     {

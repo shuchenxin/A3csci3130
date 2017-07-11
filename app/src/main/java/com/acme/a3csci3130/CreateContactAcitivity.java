@@ -7,6 +7,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+/**
+ * clasas used to create items
+ */
 public class CreateContactAcitivity extends Activity {
 
     private Button submitButton;

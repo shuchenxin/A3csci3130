@@ -1,5 +1,7 @@
 package com.acme.a3csci3130;
 
+import android.support.annotation.NonNull;
+
 import com.google.firebase.database.Exclude;
 import com.google.firebase.database.IgnoreExtraProperties;
 
@@ -14,6 +16,7 @@ import java.util.Map;
 
 public class Contact implements Serializable {
 
+    
     public  String uid;
     public  int number;
     public  String name;
