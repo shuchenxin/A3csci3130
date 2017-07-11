@@ -4,15 +4,7 @@
     ".write": "true",
     "contacts": {
             "$contact": {
-                  "number": {
-                    ".validate": "newData.isString() && newData.val().matches([0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9])"
-                  },
-                  "name": {
-                    ".validate": "newData.isString() && newData.val().length < 49 && newData.val().length > 1"
-                  },
-                  "primary": {
-                    ".validate": "newData.isString() && newData.val().matches"
-                  }
+
             }
         }
   }
